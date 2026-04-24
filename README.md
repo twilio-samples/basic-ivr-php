@@ -1,6 +1,6 @@
-# Basic IVR system with PHP
+# Build a phone menu (IVR)
 
-This app shows you how to build a basic [interactive voice response (IVR) system][twilio-ivr-url] with PHP and Twilio.
+This app shows how to build a basic [phone menu (<abbr>IVR</abbr> Interactive Voice Response)][twilio_ivr_url] system with PHP and Twilio.
 
 ## IVR overview
 
@@ -19,6 +19,7 @@ To run the app locally, you need the following:
 
 - PHP 8.3 or later
 - [Composer][composer]
+- A network testing tool such as [curl][curl_url], [Resterm][resterm_url], or [Postman][postman_url]
 - An [ngrok][ngrok] account
 - A [Twilio account][twilio-signup] with an active phone number that can send SMS
 
@@ -57,7 +58,10 @@ composer test
 ```
 
 [composer]: https://getcomposer.org
+[curl_url]: https://curl.se/
 [ngrok]: https://ngrok.com/
+[postman_url]: https://www.postman.com/
+[resterm_url]: https://github.com/unkn0wn-root/resterm
 [twilio-signup]: https://www.twilio.com/try-twilio
 [twilio-console]: https://console.twilio.com/
 [active-numbers]: https://www.twilio.com/console/phone-numbers/incoming
